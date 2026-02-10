@@ -1,0 +1,11 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 24, in <module>
+    from sam2_wrapper_hf import load_sam2_tracker_hf
+ImportError: cannot import name 'load_sam2_tracker_hf' from 'sam2_wrapper_hf' (C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper_hf.py)
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

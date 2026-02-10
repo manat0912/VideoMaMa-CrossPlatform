@@ -1,0 +1,43 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt...
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\sam2_video_predictor.py", line 35, in __init__
+    super().__init__(**kwargs)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\modeling\sam2_base.py", line 113, in __init__
+    assert add_tpos_enc_to_obj_ptrs  # these options need to be used together
+AssertionError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 557, in <module>
+    initialize_models()
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 53, in initialize_models
+    sam2_tracker = load_sam2_tracker(device=device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 192, in load_sam2_tracker
+    tracker = SAM2VideoTracker(checkpoint_path, config_file, device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 47, in __init__
+    self.predictor = build_sam2_video_predictor(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\build_sam.py", line 136, in build_sam2_video_predictor
+    model = instantiate(cfg.model, _recursive_=True)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 226, in instantiate
+    return instantiate_node(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 347, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'sam2.sam2_video_predictor.SAM2VideoPredictor':
+AssertionError()
+full_key: model
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

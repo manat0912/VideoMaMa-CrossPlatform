@@ -1,0 +1,32 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from checkpoints/sam2/sam2.1_hiera_large.pt...
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 557, in <module>
+    initialize_models()
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 53, in initialize_models
+    sam2_tracker = load_sam2_tracker(device=device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 185, in load_sam2_tracker
+    tracker = SAM2VideoTracker(checkpoint_path, config_file, device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 47, in __init__
+    self.predictor = build_sam2_video_predictor(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\build_sam.py", line 137, in build_sam2_video_predictor
+    _load_checkpoint(model, ckpt_path)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\build_sam.py", line 166, in _load_checkpoint
+    sd = torch.load(ckpt_path, map_location="cpu", weights_only=True)["model"]
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\torch\serialization.py", line 1479, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\torch\serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\torch\serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'checkpoints/sam2/sam2.1_hiera_large.pt'
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

@@ -1,0 +1,48 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/download_checkpoints.py
+
+============================================================
+VideoMaMa Checkpoint Downloader
+Operating System: Windows
+============================================================
+✓ Checkpoints directory ready: C:\pinokio\api\VideoMaMa\app\demo\checkpoints
+
+============================================================
+Downloading SAM2 checkpoint (900MB)
+============================================================
+URL: https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
+Output: C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2_hiera_large.pt
+
+Attempting download...
+Downloading with wget: wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt -O C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2_hiera_large.pt
+Downloading with curl: curl -L https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt -o C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2_hiera_large.pt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  856M  100  856M    0     0  13.3M      0  0:01:03  0:01:03 --:--:-- 6816k
+✓ Download successful with curl
+
+============================================================
+Checking VideoMaMa Checkpoint
+============================================================
+⚠️  VideoMaMa checkpoint not found
+   Expected location: C:\pinokio\api\VideoMaMa\app\demo\checkpoints\videomama_unet
+
+📝 Manual step required:
+   1. Obtain VideoMaMa checkpoint from the authors
+   2. Place files in the following structure:
+      C:\pinokio\api\VideoMaMa\app\demo\checkpoints\videomama_unet/
+      ├── config.json
+      └── diffusion_pytorch_model.safetensors (or .bin)
+
+============================================================
+Download Summary
+============================================================
+Checkpoints directory: C:\pinokio\api\VideoMaMa\app\demo\checkpoints
+
+Files to check:
+  ✓ sam2_hiera_large.pt (856.4MB)
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

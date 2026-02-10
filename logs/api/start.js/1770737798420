@@ -1,0 +1,5 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/download_checkpoints.py

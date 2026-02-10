@@ -1,0 +1,113 @@
+2026-01-27T05:22:52.359Z [memory] {"ts":1769491372358,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T05:22:52.359Z [memory] 
+2026-01-27T05:22:52.359Z [memory] {"ts":1769491372358,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T05:22:52.359Z [memory] 
+2026-01-27T05:24:00.481Z [memory] {"ts":1769491440481,"step":1,"input":{"id":"0e67253e-7807-4d33-ba5f-c10135061d95"},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T05:24:00.481Z [memory] 
+2026-01-27T05:30:45.221Z [memory] {"ts":1769491845220,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T05:30:45.221Z [memory] 
+2026-01-27T05:30:45.221Z [memory] {"ts":1769491845220,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T05:30:45.221Z [memory] 
+2026-01-27T15:45:38.883Z [memory] {"ts":1769528738883,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T15:45:38.883Z [memory] 
+2026-01-27T15:45:38.884Z [memory] {"ts":1769528738883,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-01-27T15:45:38.884Z [memory] 
+2026-02-10T15:36:38.420Z [memory] {"ts":1770737798420,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T15:36:38.420Z [memory] 
+2026-02-10T15:36:38.420Z [memory] {"ts":1770737798420,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T15:36:38.420Z [memory] 
+2026-02-10T15:36:44.149Z [memory] {"ts":1770737804149,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T15:36:44.149Z [memory] 
+2026-02-10T15:36:44.149Z [memory] {"ts":1770737804149,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T15:36:44.149Z [memory] 
+2026-02-10T16:23:29.953Z [memory] {"ts":1770740609953,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:23:29.953Z [memory] 
+2026-02-10T16:23:29.953Z [memory] {"ts":1770740609953,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:23:29.953Z [memory] 
+2026-02-10T16:26:30.324Z [memory] {"ts":1770740790323,"step":1,"input":{"id":"080187d7-a5ea-48f7-be28-4e795bf9752e"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:26:30.324Z [memory] 
+2026-02-10T16:32:21.101Z [memory] {"ts":1770741141101,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:32:21.101Z [memory] 
+2026-02-10T16:32:21.101Z [memory] {"ts":1770741141101,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:32:21.101Z [memory] 
+2026-02-10T16:32:25.268Z [memory] {"ts":1770741145268,"step":1,"input":{"id":"05e63053-6622-46ee-b181-7721ad592026"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:32:25.268Z [memory] 
+2026-02-10T16:34:07.628Z [memory] {"ts":1770741247628,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:34:07.628Z [memory] 
+2026-02-10T16:34:07.628Z [memory] {"ts":1770741247628,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:34:07.628Z [memory] 
+2026-02-10T16:34:12.129Z [memory] {"ts":1770741252129,"step":1,"input":{"id":"974fd5de-2405-4f18-98de-03aa1ac951c7"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:34:12.129Z [memory] 
+2026-02-10T16:34:22.839Z [memory] {"ts":1770741262839,"step":2,"input":{"id":"466ce66d-3b3e-4b8c-bc41-4ec5bea2d76c"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:34:22.839Z [memory] 
+2026-02-10T16:35:25.894Z [memory] {"ts":1770741325894,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:35:25.894Z [memory] 
+2026-02-10T16:35:25.895Z [memory] {"ts":1770741325894,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:35:25.895Z [memory] 
+2026-02-10T16:35:30.088Z [memory] {"ts":1770741330088,"step":1,"input":{"id":"dfee0f82-75bb-41c2-a339-97967eaae992"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:35:30.088Z [memory] 
+2026-02-10T16:36:43.525Z [memory] {"ts":1770741403524,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:36:43.525Z [memory] 
+2026-02-10T16:36:43.525Z [memory] {"ts":1770741403524,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:36:43.525Z [memory] 
+2026-02-10T16:36:47.797Z [memory] {"ts":1770741407796,"step":1,"input":{"id":"046d6704-2f47-43f0-a785-9d0164b784aa"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:36:47.797Z [memory] 
+2026-02-10T16:37:38.296Z [memory] {"ts":1770741458295,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:37:38.296Z [memory] 
+2026-02-10T16:37:38.296Z [memory] {"ts":1770741458295,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:37:38.296Z [memory] 
+2026-02-10T16:37:42.657Z [memory] {"ts":1770741462657,"step":1,"input":{"id":"0753747d-c901-423f-9191-c566a3c04f39"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:37:42.657Z [memory] 
+2026-02-10T16:37:53.273Z [memory] {"ts":1770741473273,"step":2,"input":{"id":"8b7742bf-b052-472f-ac42-d8cf92ae1094"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:37:53.273Z [memory] 
+2026-02-10T16:39:02.616Z [memory] {"ts":1770741542616,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:39:02.616Z [memory] 
+2026-02-10T16:39:02.616Z [memory] {"ts":1770741542616,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:39:02.616Z [memory] 
+2026-02-10T16:39:06.771Z [memory] {"ts":1770741546771,"step":1,"input":{"id":"d803ce73-818a-46db-865b-856e1aff2173"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:39:06.771Z [memory] 
+2026-02-10T16:41:38.245Z [memory] {"ts":1770741698245,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:41:38.245Z [memory] 
+2026-02-10T16:41:38.245Z [memory] {"ts":1770741698245,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:41:38.245Z [memory] 
+2026-02-10T16:41:42.653Z [memory] {"ts":1770741702652,"step":1,"input":{"id":"b4f64473-854d-445c-9d95-10492a641a47"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:41:42.653Z [memory] 
+2026-02-10T16:42:32.740Z [memory] {"ts":1770741752740,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:42:32.740Z [memory] 
+2026-02-10T16:42:32.740Z [memory] {"ts":1770741752740,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:42:32.740Z [memory] 
+2026-02-10T16:42:36.891Z [memory] {"ts":1770741756891,"step":1,"input":{"id":"1b2196ff-41b9-49bc-943f-49af599918ad"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:42:36.891Z [memory] 
+2026-02-10T16:43:30.352Z [memory] {"ts":1770741810352,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:43:30.352Z [memory] 
+2026-02-10T16:43:30.352Z [memory] {"ts":1770741810352,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:43:30.352Z [memory] 
+2026-02-10T16:43:34.528Z [memory] {"ts":1770741814528,"step":1,"input":{"id":"bbd83b71-32a7-4ee5-87e4-3dc370c46d61"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:43:34.528Z [memory] 
+2026-02-10T16:45:27.869Z [memory] {"ts":1770741927869,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:45:27.869Z [memory] 
+2026-02-10T16:45:27.869Z [memory] {"ts":1770741927869,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:45:27.869Z [memory] 
+2026-02-10T16:45:32.199Z [memory] {"ts":1770741932199,"step":1,"input":{"id":"eb257c98-c102-4786-acc8-3587fbab2adc"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:45:32.199Z [memory] 
+2026-02-10T16:46:24.645Z [memory] {"ts":1770741984645,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:46:24.645Z [memory] 
+2026-02-10T16:46:24.645Z [memory] {"ts":1770741984645,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:46:24.645Z [memory] 
+2026-02-10T16:46:28.744Z [memory] {"ts":1770741988743,"step":1,"input":{"id":"8a42dada-a59b-44b0-8ddd-7992f81aec24"},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:46:28.744Z [memory] 
+2026-02-10T16:46:46.115Z [memory] {"ts":1770742006115,"step":2,"input":{"id":"bdadb96c-ccb2-48c7-8961-1ddb00cc5ea3","event":["http://127.0.0.1:7860","http://127.0.0.1:7860"]},"args":{},"global":{},"local":{},"port":42003}
+2026-02-10T16:46:46.115Z [memory] 
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] ===================================================
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] # local variables
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] {
+2026-02-10T16:46:46.176Z [api local.set]   "url": "http://127.0.0.1:7860"
+2026-02-10T16:46:46.176Z [api local.set] }
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] ===================================================
+2026-02-10T16:46:46.176Z [api local.set] 
+2026-02-10T16:46:46.176Z [api local.set] 

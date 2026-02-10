@@ -1,0 +1,60 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && uv pip install -r demo/requirements.txt
+Using Python 3.10.16 environment at: venv
+    Updated https://github.com/facebookresearch/sam2.git (2b90b9f5ceec907a1c18123530e92e794ad901a4)
+Resolved 82 packages in 39.22s                                                                                                                                                                                                                  
+      Built sam-2 @ git+https://github.com/facebookresearch/sam2.git@2b90b9f5ceec907a1c18123530e92e794ad901a4
+Prepared 8 packages in 8.66s
+Uninstalled 7 packages in 188ms                                                                                                                                                                                                                 
+Installed 39 packages in 3.34s
+ + accelerate==1.12.0                                                                                                                                                                                                                           
+ - aiofiles==24.1.0                                                                                                                                                                                                                             
+ + aiofiles==23.2.1                                                                                                                                                                                                                             
+ + antlr4-python3-runtime==4.9.3                                                                                                                                                                                                                
+ + charset-normalizer==3.4.4
+ + diffusers==0.36.0
+ + einops==0.8.2
+ - gradio==6.4.0
+ + gradio==5.12.0
+ - gradio-client==2.0.3
+ + gradio-client==1.5.4
+ + hydra-core==1.3.2
+ + imageio==2.37.2
+ + imageio-ffmpeg==0.6.0
+ + importlib-metadata==8.7.1
+ + iopath==0.1.10
+ - markupsafe==3.0.3
+ + markupsafe==2.1.5
+ + mpmath==1.3.0
+ + networkx==3.4.2
+ + omegaconf==2.3.0
+ + opencv-contrib-python==4.13.0.90
+ + opencv-python==4.13.0.90
+ - pillow==12.1.0
+ + pillow==11.3.0
+ + portalocker==3.2.0
+ + psutil==7.2.1
+ - pydantic==2.12.5
+ + pydantic==2.10.6
+ - pydantic-core==2.41.5
+ + pydantic-core==2.27.2
+ + pywin32==311
+ + regex==2026.1.15
+ + requests==2.32.5
+ + ruff==0.14.14
+ + safetensors==0.7.0
+ + sam-2==1.0 (from git+https://github.com/facebookresearch/sam2.git@2b90b9f5ceec907a1c18123530e92e794ad901a4)
+ + scipy==1.15.3
+ + sympy==1.14.0
+ + tokenizers==0.22.2
+ + torch==2.10.0
+ + torchvision==0.25.0
+ + transformers==5.0.0
+ + urllib3==2.6.3
+ + websockets==14.2
+ + zipp==3.23.0
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

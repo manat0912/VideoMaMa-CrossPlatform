@@ -1,0 +1,21 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/download_checkpoints.py
+Checkpoints directory: C:\pinokio\api\VideoMaMa\app\demo\checkpoints
+✓ Exists: C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt
+
+Checking/Downloading SVD model...
+C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\huggingface_hub\utils\_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `snapshot_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Fetching 19 files: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 1773.21it/s]
+Download complete: : 0.00B [00:00, ?B/s]              ✓ SVD Ready                                                                                                                                                       | 0/19 [00:00<?, ?it/s]
+
+Checking/Downloading VideoMaMa model...
+Fetching 2 files: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 496.63it/s]
+Downloading (incomplete total...): 0.00B [00:00, ?B/s]✓ VideoMaMa Ready
+Download complete: : 0.00B [00:00, ?B/s]                                                                                                                                                                                 | 0/2 [00:00<?, ?it/s]
+Download complete: : 0.00B [00:00, ?B/s]
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

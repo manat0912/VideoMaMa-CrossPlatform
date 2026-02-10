@@ -1,0 +1,15 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/download_checkpoints.py
+Checkpoints directory: C:\pinokio\api\VideoMaMa\app\demo\checkpoints
+Downloading https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt to C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt
+✓ Download successful
+
+Checking/Downloading SVD model...
+C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\huggingface_hub\utils\_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `snapshot_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Downloading (incomplete total...):   0%|                                                                                                                                                                 | 171k/32.0G [00:01<21:54:03, 406kB/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.                                                                        | 1/19 [00:00<00:09,  1.88it/s]
+Downloading (incomplete total...):  92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 29.9G/32.6G [32:00<00:58, 46.5MB/s]
+Fetching 19 files:  37%|███████████████████████████████████████████████████████████████████▊                                                                                                                    | 7/19 [06:25<11:30, 57.58s/it]

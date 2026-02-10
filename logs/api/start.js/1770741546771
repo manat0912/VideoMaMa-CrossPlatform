@@ -1,0 +1,51 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt...
+SAM2 video tracker initialized on cuda
+Loading VideoMaMa pipeline from C:\pinokio\api\VideoMaMa\app\checkpoints\videomama...
+--- Initializing Inference Pipeline and Loading Models ---
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\transformers\utils\hub.py", line 419, in cached_files
+    hf_hub_download(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 135, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'C:\pinokio\api\VideoMaMa\app\checkpoints\stable-video-diffusion-img2vid-xt'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\pipeline_svd_mask.py", line 863, in __init__
+    self.feature_extractor = CLIPImageProcessor.from_pretrained(base_model_path, subfolder="feature_extractor")
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\transformers\image_processing_base.py", line 179, in from_pretrained
+    image_processor_dict, kwargs = cls.get_image_processor_dict(pretrained_model_name_or_path, **kwargs)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\transformers\image_processing_base.py", line 282, in get_image_processor_dict
+    resolved_processor_file = cached_file(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\transformers\utils\hub.py", line 276, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\transformers\utils\hub.py", line 468, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'C:\pinokio\api\VideoMaMa\app\checkpoints\stable-video-diffusion-img2vid-xt'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 557, in <module>
+    initialize_models()
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 56, in initialize_models
+    videomama_pipeline = load_videomama_pipeline(device=device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\videomama_wrapper.py", line 110, in load_videomama_pipeline
+    pipeline = VideoInferencePipeline(
+  File "C:\pinokio\api\VideoMaMa\app\pipeline_svd_mask.py", line 870, in __init__
+    raise IOError(f"Fatal error loading models: {e}")
+OSError: Fatal error loading models: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'C:\pinokio\api\VideoMaMa\app\checkpoints\stable-video-diffusion-img2vid-xt'.
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

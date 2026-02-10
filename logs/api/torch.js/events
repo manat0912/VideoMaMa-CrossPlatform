@@ -1,0 +1,4 @@
+2026-01-27T05:19:38.015Z [memory] {"ts":1769491178014,"step":0,"input":{"path":"app","venv":"venv","xformers":false,"triton":"","sageattention":false},"args":{"path":"app","venv":"venv","xformers":false,"triton":"","sageattention":false},"global":{},"local":{},"port":42003}
+2026-01-27T05:19:38.015Z [memory] 
+2026-01-27T05:19:38.015Z [memory] {"ts":1769491178014,"step":0,"input":{"path":"app","venv":"venv","xformers":false,"triton":"","sageattention":false},"args":{"path":"app","venv":"venv","xformers":false,"triton":"","sageattention":false},"global":{},"local":{},"port":42003}
+2026-01-27T05:19:38.015Z [memory] 

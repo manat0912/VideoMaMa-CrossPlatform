@@ -1,0 +1,23 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt...
+Using config: C:\pinokio\api\VideoMaMa\app\demo\sam2_hiera_l.yaml
+SAM2 video tracker initialized on cuda
+Loading VideoMaMa pipeline...
+  Base model: C:\pinokio\api\VideoMaMa\app\demo\checkpoints\stable-video-diffusion-img2vid-xt
+  UNet checkpoint: C:\pinokio\api\VideoMaMa\app\demo\checkpoints\videomama
+--- Initializing Inference Pipeline and Loading Models ---
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 520/520 [00:00<00:00, 2309.60it/s, Materializing param=visual_projection.weight]
+--- Models Loaded Successfully on cuda ---
+VideoMaMa pipeline loaded successfully!
+All models initialized successfully!
+* Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.

@@ -1,0 +1,20 @@
+[memory]
+{"ts":1769491177976,"step":2,"input":{"id":"2d87684a-12c0-43b0-8c85-3b2dcbe40984"},"args":{},"global":{},"local":{},"port":42003}
+
+[shell shell]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && uv pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0  --index-url https://download.pytorch.org/whl/cu128 --force-reinstall --no-deps
+Using Python 3.10.16 environment at: venv
+Resolved 3 packages in 1.47s
+Prepared 3 packages in 4ms
+Uninstalled 2 packages in 900ms
+Installed 3 packages in 10.52s
+ - torch==2.10.0
+ + torch==2.7.0+cu128
+ + torchaudio==2.7.0+cu128
+ - torchvision==0.25.0
+ + torchvision==0.22.0+cu128
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

@@ -1,0 +1,8 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git clone https://github.com/manat0912/VideoMaMa-CrossPlatform.git app
+fatal: destination path 'app' already exists and is not an empty directory.
+
+(base) C:\pinokio\api\VideoMaMa>

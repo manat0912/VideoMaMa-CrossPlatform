@@ -1,0 +1,22 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt...
+Using config: C:\pinokio\api\VideoMaMa\app\demo\sam2_hiera_l.yaml
+SAM2 video tracker initialized on cuda
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 557, in <module>
+    initialize_models()
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 56, in initialize_models
+    videomama_pipeline = load_videomama_pipeline_hf(device=device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\videomama_wrapper_hf.py", line 86, in load_videomama_pipeline_hf
+    raise FileNotFoundError(
+FileNotFoundError: SVD base model not found at checkpoints/stable-video-diffusion-img2vid-xt. Please ensure models are downloaded correctly.
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

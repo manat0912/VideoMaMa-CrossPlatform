@@ -1,0 +1,9 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && cmd /c call ../scripts/setup.bat
+Setting up VideoMaMa for Windows...
+Windows setup completed!
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>

@@ -1,0 +1,29 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\VideoMaMa\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\VideoMaMa\app\venv\Scripts\activate C:\pinokio\api\VideoMaMa\app\venv && python demo/app.py
+============================================================
+VideoMaMa Interactive Demo
+============================================================
+Using device: cuda
+Loading SAM2 from C:\pinokio\api\VideoMaMa\app\demo\checkpoints\sam2\sam2.1_hiera_large.pt...
+Traceback (most recent call last):
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 557, in <module>
+    initialize_models()
+  File "C:\pinokio\api\VideoMaMa\app\demo\app.py", line 53, in initialize_models
+    sam2_tracker = load_sam2_tracker(device=device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 192, in load_sam2_tracker
+    tracker = SAM2VideoTracker(checkpoint_path, config_file, device)
+  File "C:\pinokio\api\VideoMaMa\app\demo\sam2_wrapper.py", line 47, in __init__
+    self.predictor = build_sam2_video_predictor(
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\build_sam.py", line 137, in build_sam2_video_predictor
+    _load_checkpoint(model, ckpt_path)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\sam2\build_sam.py", line 167, in _load_checkpoint
+    missing_keys, unexpected_keys = model.load_state_dict(sd)
+  File "C:\pinokio\api\VideoMaMa\app\venv\lib\site-packages\torch\nn\modules\module.py", line 2593, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for SAM2VideoPredictor:
+Unexpected key(s) in state_dict: "obj_ptr_tpos_proj.weight", "obj_ptr_tpos_proj.bias". 
+
+(venv) (base) C:\pinokio\api\VideoMaMa\app>
