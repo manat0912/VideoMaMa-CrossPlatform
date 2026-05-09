@@ -4,7 +4,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/manat0912/VideoMaMa-CrossPlatform.git app"
+          "git clone https://github.com/manat0912/VideoMaMa-APP.git app"
         ]
       }
     },
@@ -15,7 +15,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install gradio",
-          "{{platform === 'win32' ? 'cmd /c call ../scripts/setup.bat' : (platform === 'darwin' ? 'bash ../scripts/setup-macos.sh' : 'bash scripts/setup.sh')}}",
+          "{{platform === 'win32' ? 'cmd /c call scripts/setup.bat' : (platform === 'darwin' ? 'bash scripts/setup-macos.sh' : 'bash scripts/setup.sh')}}",
           "uv pip install -r demo/requirements.txt"
         ]
       }
@@ -35,6 +35,3 @@ module.exports = {
     }
   ]
 };
-
-const os = require('os');
-
