@@ -4,7 +4,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/manat0912/VideoMaMa-CrossPlatform.git app"
+          "git clone https://github.com/manat0912/VideoMaMa-APP.git"
         ]
       }
     },
