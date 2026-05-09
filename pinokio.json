@@ -1,0 +1,5 @@
+{
+  "title": "VideoMaMa",
+  "description": "Mask-Guided Video Matting via Generative Prior. Supports stable performance across diverse video domains with fine-grained matting quality.",
+  "icon": "icon.png"
+}

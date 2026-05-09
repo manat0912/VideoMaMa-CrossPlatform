@@ -1,4 +1,6 @@
 module.exports = {
+  title: "VideoMaMa",
+  icon: "icon.png",
   version: "5.0",
   menu: async (kernel, info) => {
     /**********************************************************************************************
